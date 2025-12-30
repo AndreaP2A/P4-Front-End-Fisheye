@@ -43,7 +43,7 @@ Un compteur global en temps réel qui s'actualise lors de l'interaction avec le 
 ### Installation locale
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/AndreaP2A/P6--Front-End-Fisheye.git
+   git clone https://github.com/AndreaP2A/P4-Front-End-Fisheye.git
    ```
 2. Accédez au dossier :
    ```bash
@@ -70,7 +70,7 @@ L'architecture suit une logique modulaire pour assurer la maintenabilité du cod
 
 ## 🌐 Aperçu en ligne
 Le projet est accessible en ligne via GitHub Pages : 
-👉 [Consulter la démo FishEye](https://andreap2a.github.io/P4-Front-End-Fisheye/)
+👉 [Consulter la démo FishEye](https://andreap2a.github.io/P4-Front-End-Fisheye/index.html)
 
 ## 🎓 Contexte Pédagogique
 Ce projet constitue le **4ème projet pratique** de mon parcours **Développeur d'application (CDA) JavaScript / React (Bac+3/+4)** chez OpenClassrooms. Il m'a permis de perfectionner mes compétences en JavaScript modulaire, de maîtriser les **Design Patterns** (notamment le pattern Factory) et d'intégrer les enjeux critiques de l'**accessibilité numérique (WCAG)** au cœur du développement frontend.

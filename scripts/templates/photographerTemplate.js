@@ -190,7 +190,7 @@ class PhotographerTemplate {
       path.setAttribute("stroke", "var(--secondary-color)");
       likeIcon.appendChild(path);
 
-      // Prevent lightbox from opening when like icon is clicked (issue #4)
+      // Prevent lightbox from opening when like icon is clicked (point bloquant)
       likeIcon.addEventListener("click", (event) => {
         event.stopPropagation();
         this.toggleLike(likeIcon, likeCountsDiv);

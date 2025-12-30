@@ -1,10 +1,10 @@
 /**
  * API utils
  * @constructor
- * @param {string} [baseURL="/P6--Front-End-Fisheye/data"] - The base URL for the API.
+ * @param {string} [baseURL="/P4-Front-End-Fisheye/data"] - The base URL for the API.
  */
 class API {
-  constructor(baseURL = "/P6--Front-End-Fisheye/data") {
+  constructor(baseURL = "/P4-Front-End-Fisheye/data") {
     this.baseURL = baseURL;
   }
 
