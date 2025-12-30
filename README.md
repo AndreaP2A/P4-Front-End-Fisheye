@@ -1,49 +1,79 @@
-<div align="center">
-  <a href="https://github.com/AndreaP2A/P6--Front-End-Fisheye">
-    <img src="https://andreap2a.github.io/P6--Front-End-Fisheye/assets/images/logo.png" alt="Logo">
-  </a>
+# 📸 FishEye — Plateforme de Photographes Freelance
+**JavaScript Vanilla · HTML5 · CSS3**
 
-<h3 align="center">FishEye</h3>
+FishEye est un site web dynamique et accessible permettant aux photographes indépendants de présenter leur portfolio de manière professionnelle. Le projet repose sur une architecture JavaScript modulaire et une conformité stricte aux normes d'accessibilité.
 
-<p align="center"><img src="https://andreap2a.github.io/P6--Front-End-Fisheye/assets/images/mockup.png" alt="Mockup de projet FishEye"></p>
-  <p align="center">
-  FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux. Suite à une demande de refonte du site, ce dernier a été réinventé tout respectant au maximum les normes d'accessibilité WCAG et promettant un code maintenable.<br />
-    <br />
-  </p>
-</div>
+## 📌 Présentation du Projet
+FishEye est une plateforme permettant aux photographes indépendants de présenter leurs travaux. L'objectif de ce projet était de refondre un site existant pour construire une interface fluide et performante tout en garantissant une expérience inclusive. L'accent a été mis sur la programmation système (Design Patterns) et le respect strict des critères **WCAG 2.1** pour permettre une navigation optimale à tous les utilisateurs.
 
-## Contexte du projet
+## 🎯 Objectifs techniques
+- **Design Patterns :** Mise en œuvre du pattern *Factory* pour la création dynamique des composants média (Images et Vidéos).
+- **Accessibilité (A11y) :** Gestion avancée du focus, navigation clavier complète, et utilisation sémantique des attributs ARIA.
+- **JavaScript ES6+ :** Utilisation de la programmation orientée objet (classes), des modules, et de la manipulation dynamique du DOM via Fetch API.
+- **Interactivité :** Développement d'une Lightbox immersive, de systèmes de tri personnalisés et de formulaires dynamiques.
 
-Fisheye est un projet fictif, constituant le 4ème projet pratique dans le cadre du cursus que je suis chez OpenClassrooms. <br />
-Celui-ci m'a amené à travailler sur :
+## ✨ Fonctionnalités & Accessibilité
+Le projet a été conçu pour être à la fois esthétique et fonctionnel, avec une attention particulière portée aux détails techniques :
 
-- Assurer l'accessibilité d'un site web
-- Développer une application web modulaire avec des design patterns
-- Ecrire du code JavaScript maintenable
-- Gérer les évènements d'un site avec JavaScript
+### ♿ Accessibilité Web (WCAG 2.1)
+Conformité totale aux technologies d'assistance : navigation par tabulation, étiquettes ARIA descriptives et contrastes optimisés.
 
-## Technologies utilisées
+### 🖼️ Galerie Dynamique & Patterns
+Utilisation d'une "Factory" pour générer les cartes des photographes et leurs médias respectifs à partir de données JSON.
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+### 🔍 Système de Tri
+Filtres intelligents permettant d'organiser les médias par popularité (likes), date ou titre, avec mise à jour instantanée du DOM.
 
-## Test du projet
+### 🎞️ Lightbox Immersive
+Une visionneuse plein écran permettant de naviguer entre les médias à l'aide des flèches du clavier ou de la souris.
 
-1. Clonez ce dépôt de code sur votre machine locale.
-2. Ouvrez le fichier `index.html` dans votre navigateur web.
-3. Késako ? Pas le temps ? N'hésitez pas à visiter la version en ligne !
+### ❤️ Compilation des Likes
+Un compteur global en temps réel qui s'actualise lors de l'interaction avec le bouton "Like" de chaque média.
 
-## Site en ligne
+## 🚀 Installation et Utilisation
+### Prérequis
+- Un navigateur web moderne (Chrome, Firefox, Edge, Safari).
 
-https://andreap2a.github.io/P6--Front-End-Fisheye/index.html
+### Installation locale
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/AndreaP2A/P6--Front-End-Fisheye.git
+   ```
+2. Accédez au dossier :
+   ```bash
+   cd Front-End-Fisheye
+   ```
+3. Ouvrez le fichier `index.html` dans votre navigateur.
 
-## Contact
+## 🛠️ Structure du projet
+L'architecture suit une logique modulaire pour assurer la maintenabilité du code :
 
-andrea.porche2a@gmail.com
+```text
+.
+├── assets/             # Images, icônes et logos
+├── css/                # Feuilles de style CSS3
+├── data/               # Fichier JSON des photographes et médias
+├── scripts/            # Logique JavaScript (Modules ES6)
+│   ├── factories/      # Factory Pattern (Media & Photographer)
+│   ├── pages/          # Logique spécifique aux pages
+│   ├── templates/      # Génération dynamique du HTML
+│   └── utils/          # Modales, Lightbox, et gestionnaires d'événements
+├── index.html          # Page d'accueil (Liste des photographes)
+└── photographer.html   # Page de profil détaillée
+```
 
-Lien du repo: [https://github.com/AndreaP2A/P6--Front-End-Fisheye](https://github.com/AndreaP2A/P6--Front-End-Fisheye)
+## 🌐 Aperçu en ligne
+Le projet est accessible en ligne via GitHub Pages : 
+👉 [Consulter la démo FishEye](https://andreap2a.github.io/P6--Front-End-Fisheye/index.html)
+
+## 🎓 Contexte Pédagogique
+Ce projet constitue le **4ème projet pratique** de mon parcours **Développeur d'application (CDA) JavaScript / React (Bac+3/+4)** chez OpenClassrooms. Il m'a permis de perfectionner mes compétences en JavaScript modulaire, de maîtriser les **Design Patterns** (notamment le pattern Factory) et d'intégrer les enjeux critiques de l'**accessibilité numérique (WCAG)** au cœur du développement frontend.
+
+---
+
+## 👨‍💻 Auteur
+**Andréa PORCHE**
+
+- **GitHub :** [@AndreaP2A](https://github.com/AndreaP2A)
+- **LinkedIn :** [Andrea Porche](https://www.linkedin.com/in/andrea-porche-763445173/)
+- **Email :** andrea.porche2a@gmail.com
