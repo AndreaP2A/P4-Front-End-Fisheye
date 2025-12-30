@@ -1,5 +1,7 @@
 # 📸 FishEye — Plateforme de Photographes Freelance
-**JavaScript Vanilla · HTML5 · CSS3**
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 FishEye est un site web dynamique et accessible permettant aux photographes indépendants de présenter leur portfolio de manière professionnelle. Le projet repose sur une architecture JavaScript modulaire et une conformité stricte aux normes d'accessibilité.
 
